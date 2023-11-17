@@ -8,6 +8,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 
 const Item = ({ id, title, price }) => {
   const imgPath = `../assets/img/${id}.jpg`;
+
   const navigate = useNavigate();
   const handleNavigation = () => navigate(`/item/${id}`);
 
@@ -29,10 +30,10 @@ const Item = ({ id, title, price }) => {
       </CardActionArea>
       <CardActions sx={{ display: "flex", justifyContent: "space-around" }}>
         <Button size="small" color="error" onClick={handleNavigation}>
-          Ver más
+          Buy
         </Button>
         <Typography variant="subtitle2" color="text.secondary" align="right">
-          {`$${price}`}
+          {`Kh${price}`}
         </Typography>
       </CardActions>
     </Card>

@@ -13,9 +13,10 @@ const CardBoard = () => {
       <Card>
         <CardContent sx={{ padding: 3, background: "#C8E6C9" }}>
           <Typography variant="h5">Get Better Insights</Typography>
-          <Typography variant="h6">from Your Farm</Typography>
+          <Typography variant="h6">from Your Smart Farm</Typography>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            Our Smart Farm solution provides invaluable insights into your
+            agricultural operations
           </Typography>
         </CardContent>
         <Box sx={{ padding: 1 }}>

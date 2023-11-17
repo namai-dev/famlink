@@ -10,6 +10,7 @@ import DashBoard from "./components/dashboard/DashBoard";
 import "./index.css";
 import Footer from "./components/Footer";
 import Connect from "./components/Connect/Connect";
+import Market from "./components/Market/Market";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/register" Component={Register} />
           <Route path="/dashboard" Component={DashBoard} />
           <Route path="/connect" Component={Connect} />
+          <Route path="/market" Component={Market} />
         </Routes>
         {<Footer />}
       </BrowserRouter>

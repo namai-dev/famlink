@@ -52,7 +52,7 @@ function Header(props) {
               <Typography color={"black"}>SmartFarm</Typography>
             </ListItemButton>
           </Link>
-          <Link to={"/dashboard"}>
+          <Link to={"/market"}>
             <ListItemButton>
               <Typography color={"black"}>Market</Typography>
             </ListItemButton>
