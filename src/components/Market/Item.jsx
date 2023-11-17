@@ -5,6 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
+import Image from "../../img/photo2.jpeg";
 
 const Item = ({ id, title, price }) => {
   const imgPath = `../assets/img/${id}.jpg`;
@@ -18,7 +19,7 @@ const Item = ({ id, title, price }) => {
         <CardMedia
           component="img"
           height="260"
-          image={imgPath}
+          image={Image}
           alt={id}
           onClick={handleNavigation}
         />
